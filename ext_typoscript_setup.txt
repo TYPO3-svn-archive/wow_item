@@ -1,0 +1,4 @@
+page.includeJS.wowitem1 = EXT:wow_item/res/js/mootools12/mootools.js
+page.includeJS.wowitem2 = EXT:wow_item/res/js/overlib421/overlib.js
+page.includeJS.wowitem3 = EXT:wow_item/res/js/tooltip.js
+page.includeCSS.wowitem1 = EXT:wow_item/res/css/tooltip.css

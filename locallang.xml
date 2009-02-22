@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'wow_item'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">WOW - Item Display</label>
+			<label index="pi1_plus_wiz_description">Displays a WOW item.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">WOW - Item Display</label>
+			<label index="pi1_plus_wiz_description">Zeigt einen WOW Gegenstand an.</label>
+		</languageKey>
+	</data>
+</T3locallang>

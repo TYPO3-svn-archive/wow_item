@@ -1,0 +1,9 @@
+plugin.tx_wowitem_pi1 {
+  template {
+    html = TEMPLATE
+    html {
+      template = FILE
+      template.file = {$plugin.tx_wowitem_pi1.template.html}
+    }
+  }
+}

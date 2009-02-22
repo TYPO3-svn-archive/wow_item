@@ -1,0 +1,6 @@
+
+plugin.tx_wowitem_pi1 {
+  template {
+    html = EXT:wow_item/pi1/tx_wowitem_pi1.html
+  }
+}
