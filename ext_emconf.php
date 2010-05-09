@@ -11,9 +11,9 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'World of Warcraft - Item Display',
+	'title' => 'World of Warcraft - Item',
 	'description' => 'Displays an item from World of Warcraft',
-	'category' => 'plugin',
+	'category' => 'World of Warcraft',
 	'author' => 'Jobe',
 	'author_email' => 'jobe@jobesoft.de',
 	'shy' => '',
@@ -32,6 +32,10 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '0.0.1',
 	'constraints' => array(
 		'depends' => array(
+			'cms' => '',
+			'typo3' => '4.3.2',
+			'php' => '5.0',
+			'wow_armory' => '0.0.0',
 		),
 		'conflicts' => array(
 		),

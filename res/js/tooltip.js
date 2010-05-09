@@ -4,8 +4,8 @@ window.addEvent('domready', function(e){// when dom is ready
   var wowitem_tooltip = {
     lang: 'de',
     templates: {
-      frame: '<div id="tooltipcontainer" class="tooltip" style="display: block; visibility: visible; width:500px;"><div id="tool1container" style="width: auto;"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="tl"/><td class="t"/><td class="tr"/></tr><tr><td class="l"></td><td class="bg"><div id="toolBox">###DATA###</div></td><td class="r"></td></tr><tr><td class="bl"/><td class="b"/><td class="br"/></tr></tbody></table></div><table style="float: left; display: none; margin-top: 10px;" id="tool2container"><tbody><tr><td class="tl"/><td class="t"/><td class="tr"/></tr><tr><td class="l"></td><td class="bg"><div id="toolBox_two">TEST</div></td><td class="r"></td></tr><tr><td class="bl"/><td class="b"/><td class="br"/></tr></tbody></table><table style="float: left; display: none; margin-top: 10px;" id="tool3container"><tbody><tr><td class="tl"/><td class="t"/><td class="tr"/></tr><tr><td class="l"></td><td class="bg"><div id="toolBox_three">TEST</div></td><td class="r"></td></tr><tr><td class="bl"/><td class="b"/><td class="br"/></tr></tbody></table></div>',
-      loading: '<div class="loading">Searching...please wait.</div>',
+      frame: '<div class="tooltip">###DATA###</div>',
+      loading: '<img src="typo3conf/ext/wow_item/res/image/ajax-loading.gif">',
     },
     pattern: /tx_wowitem_pi1\[id\]=([0-9]*)/i,
     request: new Request({

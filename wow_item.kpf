@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="13d181ce-9df6-4066-9219-1ddec9e8256b" kpf_version="4" name="wow_item.kpf">
+<livefolder id="13d181ce-9df6-4066-9219-1ddec9e8256b/mmlib" idref="13d181ce-9df6-4066-9219-1ddec9e8256b" name="mmlib" url="file:///D:/PROFILES/Jobe/DATA/Projekte/Web/t3selma/typo3conf/ext/wow_character/mmlib">
+</livefolder>
+<preference-set idref="13d181ce-9df6-4066-9219-1ddec9e8256b">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>

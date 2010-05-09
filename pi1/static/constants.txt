@@ -1,6 +1,9 @@
-
 plugin.tx_wowitem_pi1 {
-  template {
-    html = EXT:wow_item/pi1/tx_wowitem_pi1.html
-  }
+
+    #cat=plugin.tx_wowitem_pi1/file/b; type=string; label=HTML:path to html template.
+  template = EXT:wow_item/pi1/tx_wowitem_pi1.html
+
+    #cat=plugin.tx_wowitem_pi1/file/c; type=string; label=HTML:path to css template.
+  css = EXT:wow_item/pi1/tx_wowitem_pi1.css
+  
 }

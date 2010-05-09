@@ -1,3 +1,0 @@
-plugin.tx_wowitem_pi1._CSS_DEFAULT_STYLE (
-  .tx-wowitem-pi1 #tooltipcontainer {position:0;}
-)

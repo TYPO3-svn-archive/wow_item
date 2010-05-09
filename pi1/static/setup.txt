@@ -1,9 +1,8 @@
 plugin.tx_wowitem_pi1 {
-  template {
-    html = TEMPLATE
-    html {
-      template = FILE
-      template.file = {$plugin.tx_wowitem_pi1.template.html}
-    }
+  template = {$plugin.tx_wowitem_pi1.template}
+  template.marks {
+    dummy = TEXT
+    dummy.value = [DUMMY]
   }
+  css = {$plugin.tx_wowitem_pi1.css}
 }
